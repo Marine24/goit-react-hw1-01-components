@@ -1,0 +1,47 @@
+.statistics {
+  width: 500px;
+  height: 400px;
+  background-color: #e7ecf2;
+  margin: 0 auto;
+  position: relative;
+}
+.stat_list {
+  width: 400px;
+  height: 70px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 200px 0;
+}
+.item:nth-child(odd) {
+  background-color: rgb(96, 3, 124);
+}
+.item {
+  width: 80px;
+  display: flex;
+  background-color: rgb(241, 119, 119);
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  align-self: center;
+  padding: 10px;
+}
+.label {
+  font-size: 20px;
+}
+.percentage {
+  font-size: 24px;
+}
+.title {
+  bottom: 40%;
+  left: 10%;
+  position: absolute;
+  text-align: center;
+  font-size: 44px;
+  margin-top: 30px;
+  width: 400px;
+  height: 100px;
+  background-color: aliceblue;
+  color: rgb(5, 85, 58);
+}
